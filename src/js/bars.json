@@ -1,0 +1,2131 @@
+{"businesses": 
+    [
+        {
+            "id": "YtOE9GCTtM1eo2NUKw7Exw",
+            "alias": "carpe-diem-salzburg",
+            "name": "Carpe Diem",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/57ZWoihAASkBF3tMltjNcg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/carpe-diem-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 72,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8000955941979,
+                "longitude": 13.040181
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Getreidegasse 50",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Getreidegasse 50",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662848800",
+            "display_phone": "+43 662 848800",
+            "distance": 365.0003768389273
+        },
+        {
+            "id": "aZ4hdwdL7sg62GZ2QTlR9g",
+            "alias": "zipfer-bierhaus-salzburg",
+            "name": "Zipfer Bierhaus Schwarz GmbH",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nlwolVhfXmHTRm5MmWrs8g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zipfer-bierhaus-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 47,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                },
+                {
+                    "alias": "beerbar",
+                    "title": "Beer Bar"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.799156,
+                "longitude": 13.044048
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Universitätsplatz 19 / Sigmund-Haffner-G 12",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Universitätsplatz 19 / Sigmund-Haffner-G 12",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662840745",
+            "display_phone": "+43 662 840745",
+            "distance": 409.96323948035496
+        },
+        {
+            "id": "G9S7BbXtr8_AbLigjz5hDw",
+            "alias": "paul-stube-salzburg",
+            "name": "Paul-Stube",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/sECZT13EHZtWZBxYNbN4fQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/paul-stube-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 30,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "beergarden",
+                    "title": "Beer Garden"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.79642,
+                "longitude": 13.04827
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Herrengasse 16",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Herrengasse 16",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662843220",
+            "display_phone": "+43 662 843220",
+            "distance": 806.8216928816137
+        },
+        {
+            "id": "7p6iAkk_Eg0AKKgfU_e1ZA",
+            "alias": "humboldt-salzburg",
+            "name": "HUMBOLDT",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qnHFdU2vsAy1Gd1Vw25sIQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/humboldt-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 19,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.80077,
+                "longitude": 13.039292
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Gstättengasse 4/6",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gstättengasse 4/6",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662843171",
+            "display_phone": "+43 662 843171",
+            "distance": 355.7464909985731
+        },
+        {
+            "id": "HtmxX01zQRrTjQfpUQ1Sig",
+            "alias": "andreas-hofer-salzburg-4",
+            "name": "Andreas Hofer",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Rnz0y7LtlHsL0IU7WdJygA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/andreas-hofer-salzburg-4?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 12,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.8005383597856,
+                "longitude": 13.0515872294304
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Steingasse 65",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Steingasse 65",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662872769",
+            "display_phone": "+43 662 872769",
+            "distance": 687.7108056577055
+        },
+        {
+            "id": "XWsXGRghxwP-X1i5raeb7Q",
+            "alias": "steinterrasse-salzburg",
+            "name": "Steinterrasse",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mHedsexpMgdJYsTb3f_Smw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/steinterrasse-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 53,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.80144,
+                "longitude": 13.04529
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Giselakai 3",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Giselakai 3",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43436628743460",
+            "display_phone": "+43 4366 28743460",
+            "distance": 226.59553628755216
+        },
+        {
+            "id": "s5s9K0dxI6QqqPH95kRMWw",
+            "alias": "mayday-bar-salzburg",
+            "name": "Mayday Bar",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/yVsS29xspX8e8vg01Rb7RQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mayday-bar-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 22,
+            "categories": [
+                {
+                    "alias": "lounges",
+                    "title": "Lounges"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.79354,
+                "longitude": 13.0078
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Wilhelm-Spazier-Str. 7 a",
+                "address2": null,
+                "address3": "Hangar 7",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Wilhelm-Spazier-Str. 7 a",
+                    "Hangar 7",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436622197",
+            "display_phone": "+43 662 2197",
+            "distance": 2846.320426001173
+        },
+        {
+            "id": "nrXtMk_8UtmatVuVdDadXQ",
+            "alias": "murphys-law-irish-pub-salzburg",
+            "name": "Murphy's Law Irish Pub",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/I3odYmDw9cInqQnOU62b1g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/murphys-law-irish-pub-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 15,
+            "categories": [
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.801848,
+                "longitude": 13.038403
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Gstättengasse 33/1",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gstättengasse 33/1",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662842882",
+            "display_phone": "+43 662 842882",
+            "distance": 358.7175884240599
+        },
+        {
+            "id": "wIITEzTpDUBfBNpOuO6oJA",
+            "alias": "fridrich-bar-salzburg-2",
+            "name": "Fridrich Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hegHTogmCIkmXS9prylJPg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fridrich-bar-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.80132,
+                "longitude": 13.04624
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Steingasse 15",
+                "address2": null,
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Steingasse 15",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436763756421",
+            "display_phone": "+43 676 3756421",
+            "distance": 291.36420446178147
+        },
+        {
+            "id": "nCD6m9JkhI50Xsp4VPJRxw",
+            "alias": "restaurant-arthotel-blaue-gans-salzburg",
+            "name": "Restaurant Arthotel Blaue Gans",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YPIC32ED_0wIcw8FMV12qA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restaurant-arthotel-blaue-gans-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.7999283,
+                "longitude": 13.0407593
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Getreidegasse 41 - 43",
+                "address2": "",
+                "address3": "Arthotel Blaue Gans",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Getreidegasse 41 - 43",
+                    "Arthotel Blaue Gans",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+4366284249154",
+            "display_phone": "+43 662 84249154",
+            "distance": 358.21082967397984
+        },
+        {
+            "id": "S4orzaH6KfT0o4K1fkqYaQ",
+            "alias": "alchimiste-belge-salzburg-2",
+            "name": "Alchimiste Belge",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OlQOc-rW-URbFClZPK6t3w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/alchimiste-belge-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "beerbar",
+                    "title": "Beer Bar"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8034899,
+                "longitude": 13.04582
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Bergstr. 10",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Bergstr. 10",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436606815725",
+            "display_phone": "+43 660 6815725",
+            "distance": 219.7407067383493
+        },
+        {
+            "id": "Uoi8BbrkiEvLVe4iPuUV_g",
+            "alias": "mentors-salzburg",
+            "name": "MENTOR'S",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8x_Q2LKqXc8ZsxP53EtRFw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mentors-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.80949,
+                "longitude": 13.05501
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Gstättengasse 3",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gstättengasse 3",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436649133810",
+            "display_phone": "+43 664 9133810",
+            "distance": 1166.849289218443
+        },
+        {
+            "id": "fHaOZp4aBTt7W1_5ZaAOoA",
+            "alias": "shamrock-irish-pub-ranzenberger-salzburg",
+            "name": "Shamrock Irish Pub Ranzenberger",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/r8wp1coJw3Qw5igIPV8zDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shamrock-irish-pub-ranzenberger-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8002137,
+                "longitude": 13.0457539
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Rudolfskai 12",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Rudolfskai 12",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662841610",
+            "display_phone": "+43 662 841610",
+            "distance": 351.2197595762265
+        },
+        {
+            "id": "DeNyY9v__oZkoqKtXr2f-A",
+            "alias": "hagenauerstuben-salzburg",
+            "name": "Hagenauerstuben",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/baQpHrDWFsP-BBB0CYn0Jg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/hagenauerstuben-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.7999213,
+                "longitude": 13.0435829
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Universitätsplatz 14",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Universitätsplatz 14",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662840845",
+            "display_phone": "+43 662 840845",
+            "distance": 320.3095571237264
+        },
+        {
+            "id": "4iw6J9ijsfI5HaeDRnUOQQ",
+            "alias": "cup-und-cino-salzburg",
+            "name": "Cup&Cino",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/DAX218ITvY4IkZOdCJQODQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cup-und-cino-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8082366618885,
+                "longitude": 13.0413185189594
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Max-Ott Platz 1",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Max-Ott Platz 1",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662870547",
+            "display_phone": "+43 662 870547",
+            "distance": 620.1520881832148
+        },
+        {
+            "id": "YwHxEb27bw1ySEi6Sqgi-Q",
+            "alias": "republic-cafe-salzburg",
+            "name": "Republic Cafe",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Oppx7Lw4NINolksYqHjcMg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/republic-cafe-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 30,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.80116,
+                "longitude": 13.03951
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Anton-Neumayr-Platz 2",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Anton-Neumayr-Platz 2",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662841613",
+            "display_phone": "+43 662 841613",
+            "distance": 293.0191599758947
+        },
+        {
+            "id": "ilvJNRa-V6cfdrmgCH46iA",
+            "alias": "urban-keller-salzburg",
+            "name": "Urban-Keller",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qWnldxsw-t6zDnoru5UIAw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/urban-keller-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                },
+                {
+                    "alias": "beergarden",
+                    "title": "Beer Garden"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8072,
+                "longitude": 13.06083
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Schallmooser Hauptstr. 50",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Schallmooser Hauptstr. 50",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662870894",
+            "display_phone": "+43 662 870894",
+            "distance": 1419.7016075786871
+        },
+        {
+            "id": "cClWnWcRzkD9x5XSi5e72A",
+            "alias": "zum-eulenspiegel-salzburg",
+            "name": "Zum Eulenspiegel",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OAR4e5vSe83OEw8cDKZoIA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zum-eulenspiegel-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 27,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.8004510235174,
+                "longitude": 13.0434695846558
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Hagenauerplatz 2",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Hagenauerplatz 2",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436628431800",
+            "display_phone": "+43 662 8431800",
+            "distance": 260.8039283111053
+        },
+        {
+            "id": "2eq7rV8N2xv0Ehpqqxc5rw",
+            "alias": "natural-wine-dealers-salzburg",
+            "name": "Natural Wine Dealers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FTvNNgFkM13GK3XKXR0tKQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/natural-wine-dealers-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "beer_and_wine",
+                    "title": "Beer, Wine & Spirits"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "wineries",
+                    "title": "Wineries"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.80312,
+                "longitude": 13.04576
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Bergstr. 9",
+                "address2": null,
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Bergstr. 9",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662873257",
+            "display_phone": "+43 662 873257",
+            "distance": 206.02647327327077
+        },
+        {
+            "id": "XpHg6O9qibZwmEo_NBgP2w",
+            "alias": "shrimps-bar-restaurant-salzburg",
+            "name": "Shrimps Bar Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/cy4_CoQlDoB5btrlustgtQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shrimps-bar-restaurant-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "asianfusion",
+                    "title": "Asian Fusion"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8014990408913,
+                "longitude": 13.0455203539673
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Steingasse 5",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Steingasse 5",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662874484",
+            "display_phone": "+43 662 874484",
+            "distance": 235.56983013933527
+        },
+        {
+            "id": "cqyepwMWkgPCvzmwhqFnoQ",
+            "alias": "the-salzburg-whiskey-museum-salzburg",
+            "name": "The Salzburg Whiskey Museum",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mkwMvVvLaOcAHoFFwrslMQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-salzburg-whiskey-museum-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.80206,
+                "longitude": 13.04457
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lederergasse 6",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Lederergasse 6",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 137.8478450512212
+        },
+        {
+            "id": "CDlZ4PIf4rH3zzu2uqP7HQ",
+            "alias": "glüxfall-salzburg",
+            "name": "Glüxfall",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/smjgLNVksgPXz31PKsE8kA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gl%C3%BCxfall-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8017816,
+                "longitude": 13.0394056
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Franz-Josef-Kai 11",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Franz-Josef-Kai 11",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662265017",
+            "display_phone": "+43 662 265017",
+            "distance": 290.53022877149675
+        },
+        {
+            "id": "2fUAoZ71mfodHyDSPpXIHA",
+            "alias": "steinlechner-jedermanns-wirtshaus-salzburg",
+            "name": "Steinlechner Jedermann's Wirtshaus",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/6wvfB08Yr-mOdWsLmq43fA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/steinlechner-jedermanns-wirtshaus-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 18,
+            "categories": [
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.798785723913,
+                "longitude": 13.063598342393
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Aigner Str. 4/6",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Aigner Str. 4/6",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662633633",
+            "display_phone": "+43 662 633633",
+            "distance": 1600.9698291270681
+        },
+        {
+            "id": "_qF9IZzx-B8qR2QWhPnKgA",
+            "alias": "darwins-salzburg",
+            "name": "Darwin's",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Jl_bN5lwCGaSftwgm4i-Wg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/darwins-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8016628,
+                "longitude": 13.0454239
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Steingasse 1",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Steingasse 1",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 219.086068459084
+        },
+        {
+            "id": "oDWrRbU7mrb9t8QHdSsjQA",
+            "alias": "cook-und-wine-salzburg-2",
+            "name": "Cook & Wine",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/0TZsVvL7_UAmLM7tMc5GrA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cook-und-wine-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                },
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.7983057,
+                "longitude": 13.0486059
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Kaigasse 43",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Kaigasse 43",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662231606",
+            "display_phone": "+43 662 231606",
+            "distance": 649.7303835517142
+        },
+        {
+            "id": "ZJOHkUJ6CH7Yl14AOus18A",
+            "alias": "o-malleys-salzburg",
+            "name": "O'Malley's",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/wvbcrzpVv8HhpoVMZFjEug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/o-malleys-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 15,
+            "categories": [
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.800115,
+                "longitude": 13.04613
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Rudolfskai 16",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Rudolfskai 16",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662849263",
+            "display_phone": "+43 662 849263",
+            "distance": 376.90905241007187
+        },
+        {
+            "id": "39aSkiAigEOS2nieWua1yg",
+            "alias": "little-grain-salzburg",
+            "name": "Little Grain",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zB2vDQScz1A-qPVeJkkrng/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/little-grain-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.8004417,
+                "longitude": 13.0412598
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Getreidegasse 34",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Getreidegasse 34",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436607224898",
+            "display_phone": "+43 660 7224898",
+            "distance": 318.58640702795947
+        },
+        {
+            "id": "4UR5eRZ3SuWN5VbS_blNQw",
+            "alias": "lemonchilli-gastronomie-salzburg",
+            "name": "Lemonchilli Gastronomie",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/WhHCtfksFc-_5nhOEX4GUg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lemonchilli-gastronomie-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 19,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.7944637,
+                "longitude": 13.0505228300248
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Nonntaler Hauptstr. 24",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Nonntaler Hauptstr. 24",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662842558",
+            "display_phone": "+43 662 842558",
+            "distance": 1081.5152689293188
+        },
+        {
+            "id": "gcVvK_7PsKpzhFXnQ6zQOw",
+            "alias": "flip-salzburg",
+            "name": "Flip",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/aUhkP_ECIsns5YOPVMlRTw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/flip-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8011,
+                "longitude": 13.0389
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Gstättengasse 17",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gstättengasse 17",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 358.64152160501254
+        },
+        {
+            "id": "pJB70jNpt-VgK7t8WjrwVw",
+            "alias": "celtic-spirit-salzburg-2",
+            "name": "Celtic Spirit",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/thRkYJtrN9LI3f4wQX-PMA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/celtic-spirit-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 47.8035922115114,
+                "longitude": 13.0450459197164
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Priesterhausgasse 22",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Priesterhausgasse 22",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436764464493",
+            "display_phone": "+43 676 4464493",
+            "distance": 177.55753235740937
+        },
+        {
+            "id": "8D6xoQmoMV7H99uRgJSXPA",
+            "alias": "bierheuriger-gastronomie-salzburg-2",
+            "name": "Bierheuriger Gastronomie",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/p_aWS3m2WW9zhv1cpxAsSg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bierheuriger-gastronomie-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.80159,
+                "longitude": 13.06775
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Gaisbergstr. 20",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gaisbergstr. 20",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662641315",
+            "display_phone": "+43 662 641315",
+            "distance": 1841.495256281949
+        },
+        {
+            "id": "JRVcFrpOjHBJ1DoC-n5fqw",
+            "alias": "bricks-salzburg",
+            "name": "Bricks",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GTv_SkcKriClxKF1Th8GiA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bricks-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8020897,
+                "longitude": 13.0446997
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lederergasse 8",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Lederergasse 8",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 147.01995312482455
+        },
+        {
+            "id": "hEk9bhXGrEGq1TBINN-hFA",
+            "alias": "weinstöckl-stadtheuriger-salzburg",
+            "name": "Weinstöckl Stadtheuriger",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/yV2MTv6R-0T0xbO4J-ckEQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/weinst%C3%B6ckl-stadtheuriger-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "heuriger",
+                    "title": "Heuriger"
+                },
+                {
+                    "alias": "buffets",
+                    "title": "Buffets"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8033,
+                "longitude": 13.02258
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Villagasse 3",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Villagasse 3",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662434416",
+            "display_phone": "+43 662 434416",
+            "distance": 1513.8789297001429
+        },
+        {
+            "id": "aCYxbHQ-xls31J3wODaL6Q",
+            "alias": "daimlers-bar-salzburg",
+            "name": "Daimler's Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qyuah7sLGJUSMC6LZpzjKg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/daimlers-bar-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8010355,
+                "longitude": 13.0466737
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Giselakai 17",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Giselakai 17",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662873967",
+            "display_phone": "+43 662 873967",
+            "distance": 335.54985299323687
+        },
+        {
+            "id": "3Ek_mzcSjroTgRELYrdMFg",
+            "alias": "imlauer-sky-bar-und-restaurant-salzburg-2",
+            "name": "Imlauer Sky - Bar & Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1r2FKwGKewaomWhLzU-J-A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/imlauer-sky-bar-und-restaurant-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.80782,
+                "longitude": 13.04195
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Rainerstr. 6 - 8",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Rainerstr. 6 - 8",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+4366288978666",
+            "display_phone": "+43 662 88978666",
+            "distance": 583.9678956978381
+        },
+        {
+            "id": "MADCEQKb8TVpq46Poogblw",
+            "alias": "the-dubliner-salzburg",
+            "name": "The Dubliner",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Jof-2JGcQHUB-cnc_yh6XA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-dubliner-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "irish",
+                    "title": "Irish"
+                },
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.7977085409968,
+                "longitude": 13.0488425875592
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Kaigasse 8",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Kaigasse 8",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436506110967",
+            "display_phone": "+43 650 6110967",
+            "distance": 712.5125120626562
+        },
+        {
+            "id": "sgj2_uB_f4FCVN7skZbGvg",
+            "alias": "heavy-rotation-music-store-salzburg",
+            "name": "Heavy Rotation Music-Store",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/smDbB1VyXmQ_-03baqqfaA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/heavy-rotation-music-store-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8054,
+                "longitude": 13.053
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Glockengasse 6",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Glockengasse 6",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436644014613",
+            "display_phone": "+43 664 4014613",
+            "distance": 801.6376025898029
+        },
+        {
+            "id": "ZAPoXEP_0XBIH4Pv1tn7cw",
+            "alias": "coffee-and-booze-salzburg",
+            "name": "Coffee And Booze",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/7sYrVPyf28OqPlyorqQClw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coffee-and-booze-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8035886697674,
+                "longitude": 13.0473246960968
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Linzer Gasse 48",
+                "address2": "",
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Linzer Gasse 48",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436502707413",
+            "display_phone": "+43 650 2707413",
+            "distance": 335.1964386418811
+        },
+        {
+            "id": "YoaeJ9QkUWyfKgCQZy6BYw",
+            "alias": "pan-e-vin-salzburg-2",
+            "name": "Pan E Vin",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/MhUKUfOmaRc92tMVXoRi8A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pan-e-vin-salzburg-2?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.8003807,
+                "longitude": 13.0394201
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Gstättengasse 1",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Gstättengasse 1",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+4366284466614",
+            "display_phone": "+43 662 84466614",
+            "distance": 381.3606360561215
+        },
+        {
+            "id": "wfVcbNd1Gdb3B4mcgUmsdg",
+            "alias": "monkeys-cafe-bar-salzburg",
+            "name": "Monkeys cafe.bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qJDIfNuo9nbNmWBcfLthrw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/monkeys-cafe-bar-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.800634938165,
+                "longitude": 13.0481285965201
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Imbergstr. 2a",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Imbergstr. 2a",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662876652",
+            "display_phone": "+43 662 876652",
+            "distance": 450.7812727718841
+        },
+        {
+            "id": "IBwjqGihPn10ReJ4QJ1_2g",
+            "alias": "flavour-weinbar-restaurant-salzburg",
+            "name": "Flavour Weinbar Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/_4fyBOTr9q_qJVvE4ZWgvg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/flavour-weinbar-restaurant-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8010404,
+                "longitude": 13.0487844
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Imbergstr. 21",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Imbergstr. 21",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 472.9424656055139
+        },
+        {
+            "id": "2rXPNfFgN3x1engYBLzDQA",
+            "alias": "pepe-salzburg",
+            "name": "pepe",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Bhwdil0xGTak1gzogq_Bzw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pepe-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8016,
+                "longitude": 13.0455
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Steingasse 3",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Steingasse 3",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662873662",
+            "display_phone": "+43 662 873662",
+            "distance": 227.73468480735494
+        },
+        {
+            "id": "lMRO0pkAvvTJbllAYAqFzw",
+            "alias": "cafe-pepita-christine-wasserfaller-salzburg",
+            "name": "Cafe Pepita, Christine Wasserfaller",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cafe-pepita-christine-wasserfaller-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "hotels",
+                    "title": "Hotels"
+                },
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                },
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8023,
+                "longitude": 13.0459
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Kapuzinerberg 2",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Kapuzinerberg 2",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662881576",
+            "display_phone": "+43 662 881576",
+            "distance": 222.73127814174165
+        },
+        {
+            "id": "2Wi83BIDR2gekj-ybOEsBQ",
+            "alias": "shakespeare-salzburg",
+            "name": "Shakespeare",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shakespeare-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "theater",
+                    "title": "Performing Arts"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.8064,
+                "longitude": 13.0433
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Hubert-Sattler-Gasse 3",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Hubert-Sattler-Gasse 3",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662879106",
+            "display_phone": "+43 662 879106",
+            "distance": 403.6388872577265
+        },
+        {
+            "id": "7sRj0RKQj65MyfRxsiNARQ",
+            "alias": "greisslerei-de-merin-salzburg",
+            "name": "Greisslerei De Merin",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/yMXSLAoafJ76TfdbekV1ug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/greisslerei-de-merin-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.779314614538,
+                "longitude": 13.0579742237389
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Morzger Str.31",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Morzger Str.31",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+436641258625",
+            "display_phone": "+43 664 1258625",
+            "distance": 2838.361645138544
+        },
+        {
+            "id": "hVFRlb9aJpMfl1nIpuTobA",
+            "alias": "trumerei-salzburg",
+            "name": "Trumerei",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JpiDm_ky8UEd2HMv1xO-XQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/trumerei-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.80937,
+                "longitude": 13.030892
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Strubergasse 26",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Strubergasse 26",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662265432",
+            "display_phone": "+43 662 265432",
+            "distance": 1164.3901667576224
+        },
+        {
+            "id": "GxA0HRUCcFUolY4Co7WevA",
+            "alias": "bellinis-salzburg",
+            "name": "Bellinis",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nmKG2GXNhboOnBeYx8lbPw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bellinis-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 47.806,
+                "longitude": 13.0426
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Mirabellplatz 4",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Mirabellplatz 4",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662871385",
+            "display_phone": "+43 662 871385",
+            "distance": 359.8129454994488
+        },
+        {
+            "id": "dPucKLphKrKgNJSUXaiZOg",
+            "alias": "two-seasons-salzburg",
+            "name": "Two Seasons",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/aTPHrq4mmVQYlRjWG_rQ3g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/two-seasons-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 47.79841,
+                "longitude": 13.06086
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Hermann-Bahr-Promenade 5",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Hermann-Bahr-Promenade 5",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662621006",
+            "display_phone": "+43 662 621006",
+            "distance": 1419.3382421159838
+        },
+        {
+            "id": "L-DzV9nzg8Kk-eI8yom3iQ",
+            "alias": "havana-cocktailbar-salzburg",
+            "name": "Havana - Cocktailbar",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xoCd_Gwd8v6o4c7-G64-0Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/havana-cocktailbar-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 47.8032,
+                "longitude": 13.0453
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Priesterhausgasse 14",
+                "address2": null,
+                "address3": null,
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Priesterhausgasse 14",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662870092",
+            "display_phone": "+43 662 870092",
+            "distance": 177.9274925641967
+        },
+        {
+            "id": "xCmQTCsM8lQsKc2fia6nkQ",
+            "alias": "sarastro-salzburg",
+            "name": "Sarastro",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Nx5h-pt4_L_WKkPug4UBJQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sarastro-salzburg?adjust_creative=HhgR9wrvci_RtC_eLkDQ0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=HhgR9wrvci_RtC_eLkDQ0g",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "international",
+                    "title": "International"
+                },
+                {
+                    "alias": "austrian",
+                    "title": "Austrian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 47.7982287564145,
+                "longitude": 13.042964380746
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Wiener-Philharmoniker-Gasse 9",
+                "address2": "",
+                "address3": "",
+                "city": "Salzburg",
+                "zip_code": "5020",
+                "country": "AT",
+                "state": "5",
+                "display_address": [
+                    "Wiener-Philharmoniker-Gasse 9",
+                    "5020 Salzburg",
+                    "Austria"
+                ]
+            },
+            "phone": "+43662843532",
+            "display_phone": "+43 662 843532",
+            "distance": 505.57880263251593
+        }
+    ]
+}
