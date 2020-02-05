@@ -41,7 +41,7 @@ router
         const profile = new ProfilePage(root);
         profile.render();
       },
-      'bars': function () {
+      'list': function () {
         const barList = new ListPage(root);
         barList.render();
       },

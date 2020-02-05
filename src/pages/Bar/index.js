@@ -1,5 +1,9 @@
 import template from './bar.hbs';
 import challenges from '../../js/challenges';
+import circle from '../../images/circle.svg';
+import checkedCircle from '../../images/checkedCircle.svg'
+
+
 
 
 export default class BarPage {
@@ -35,7 +39,7 @@ export default class BarPage {
       let result = getCookie(name);
       if(result){
         let challenges = read_cookie(result);
-        displaychallenges(challenges);
+        displaychallenges(challenges, name);
         return false;
       }
       return true;
@@ -75,7 +79,7 @@ function checkUserLocation(latBar, lngBar, idBar){
         if(!result){
           let value = getRandomChallanges();
           bake_cookie(name, value, 2)
-          displaychallenges(value);
+          displaychallenges(value, name);
         }    
       } else{
         console.log("Du bist nicht in der Bar!!!"); 
@@ -84,24 +88,52 @@ function checkUserLocation(latBar, lngBar, idBar){
   invisibleMap.on('locationerror', console.log("GPS not working"));
 }
 
-function displaychallenges(randomChallenges){
-
+function displaychallenges(randomChallenges, name){
   let divforChallenges = document.getElementById('bar__challenges');
-  
-  divforChallenges.innerHTML = `
-  <h2>Challenges</h2>
-    <li bar__challenges__list>
-      <ul bar__challenges__list__element>
-      ${randomChallenges[0].challenge}
-      ${randomChallenges[0].points} Points
-      </ul>
+  if(randomChallenges.length>0){
+    divforChallenges.innerHTML = getChallangeHTML(randomChallenges);
+    setEventToCircle(randomChallenges, name);
+  }else{
+    divforChallenges.innerHTML = '<p>Alle Challenges für heute gemeistert. Bis bald!</p>';
+  }
+ 
+}
 
-      <ul bar__challenges__list__element>
-      ${randomChallenges[1].challenge}
-      ${randomChallenges[1].points} Points
-      </ul>
-    </li>
-  `
+function setEventToCircle(randomChallenges, name) {
+  let circles = document.getElementsByClassName('list__element__points__click');
+
+  for (var i = 0; i < circles.length; i++) {
+
+      circles[i].addEventListener('click', function(e) {
+        console.log(e);
+
+          if( e.target.alt == 'a circle to check the challange'){
+            console.log('Challange DONE');
+            e.target.alt = 'a check circle';
+            e.target.src = checkedCircle;
+            let parentDivId = e.target.parentNode.parentNode.parentNode.id;
+            // e.target.parentNode.parentNode.parentNode.hidden = true;
+
+            if(parentDivId.includes(0)){
+              //entweder style setzten - auch challange.js verändern (vlt)
+              // randomChallenges[0].style = '--transparent';
+              
+              //oder challenge löschen
+              randomChallenges = randomChallenges.slice(1); // first element removed 
+              //edit existing cookie
+              bake_cookie(name, randomChallenges, 2)
+              console.log(document.cookie);
+            }
+            if(parentDivId.includes(1)){
+              randomChallenges.pop(); // last element removed
+              // bake_cookie('51', randomChallenges, 2)
+              console.log(randomChallenges);
+            }
+          } else{
+            console.log('Challange DONE already');
+          }
+      });
+  }
 }
 
 function getRandomChallanges(){
@@ -115,6 +147,28 @@ function getRandomChallanges(){
   return randomChallengesArray;
 }
 
+function getChallangeHTML (randomChallengesArray){
+  let challangeHTML = 
+      `
+      <h2>Challenges</h2>
+      <ul class='bar__challenges list'>
+      `;
+  for(let i=0; i < randomChallengesArray.length; i++){
+    challangeHTML +=
+        `
+        <li class='bar__challenges list__element' id='challange${i}'>
+            <p>${randomChallengesArray[i].challenge}</p>
+            <div class='list__element__points'>
+              <p>+${randomChallengesArray[i].points} Points</p>
+              <button class='list__element__points__click'><img src=${circle} alt='a circle to check the challange'></button>
+            </div>
+          </li>
+        `;
+  }
+  challangeHTML += `</ul>`
+  return challangeHTML;
+}
+
 function getCookie(name) {
   var value = "; " + document.cookie;
   var parts = value.split("; " + name + "=");
@@ -123,7 +177,6 @@ function getCookie(name) {
 
 // https://stackoverflow.com/questions/11344531/pure-javascript-store-object-in-cookie
 function bake_cookie(name, value, hours) {
-
   if (hours) {
       var date = new Date();
       date.setTime(date.getTime()+(hours*60*60*1000));

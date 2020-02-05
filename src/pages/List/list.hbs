@@ -2,13 +2,12 @@
 <h1>{{ heading }}</h1>
 
 <ul>
-    {{#each barsData}}
+    {{#each barData}}
     <li>
     <a href="{{this.id}}">
         <div>
             <h2>{{ this.name }}</h2>
-            {{!-- <p>{{ disRating rating }}</p> --}}
-            <p>{{ this.type }}</p>
+            <p>{{this.rating}}</p>
         </div>
     </a>
     </li>
