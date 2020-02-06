@@ -1,12 +1,13 @@
 import template from './map.hbs';
 import barData from '../../js/bars-data';
+import { markHeaderLink } from '../../js/functions';
 import markerPNG from '../../images/pin_w.svg';
 import markerOnclick from '../../images/pin_t.svg';
 import iconUser from '../../images/usericon.svg';
+import { rateMe, withIcon } from '../../js/functions';
 
 export default class MapPage {
     constructor(root) {
-      console.log('It\'s a Map!');
       this.root = root;
       this.template = template;
       this.mymap;
@@ -15,11 +16,13 @@ export default class MapPage {
     render(){
       this.root.innerHTML = this.template({ heading: 'Map' });
       this.mymap = L.map('mapid').setView([47.801, 13.045], 13);
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRsaW5nZXJtYSIsImEiOiJjazVqbXUycTIwNG82M2xvNGhiamNlcWpnIn0.NkRltbxOXwRlM4WoyI8b3w', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      //Dunkel
+        L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        attribution: 'Bar data: &copy Yelp, Map data: &copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
         id: 'mapbox/streets-v11',
         accessToken: 'your.mapbox.access.token'
       }).addTo(this.mymap);
+      markHeaderLink('map');
     }
 
     setMarker(mymap){
@@ -38,7 +41,6 @@ export default class MapPage {
             markers[i].myCustomID = i+1;
             markers[i].on("click", function(e) {
               let usercoorinates;
-              console.log(mymap._targets[180]);
               //get last 
               for(let j=0; j<250; j++){
                 if(mymap._targets[j] && mymap._targets[j]._mRadius){
@@ -51,7 +53,6 @@ export default class MapPage {
                 mymap.eachLayer(function (layer) { 
                     // wenn Marker und nicht gerade extra ausgewählt -> alles wieder grau
                     if (layer._icon && layer._latlng != markers[i]._latlng && layer._icon.attributes[0].nodeValue === markerOnclick ) {
-                        console.log("grau machen")
                         layer._icon.attributes[0].nodeValue = markerPNG;
                     }
                 } 
@@ -112,15 +113,15 @@ function showInfo(e, userLatLng) {
 
       let distance = e.latlng.distanceTo( userLatLng );
       distance = Math.round(distance);
-
       infobox.innerHTML = `
-      <a class="barinfo__link" href=${infos.id}>
-          <div class="barinfo__link__name">${infos.name}</div>
-          <div class="barinfo__link__name">${distance}</div>
-          <div class="barinfo__link__type">${infos.type}</div>
-          <div class="barinfo__link__rating">${infos.rating}</div>
+      <a class="barinfo__link" href='./#/${infos.id}'>
+          <h2 class="barinfo__link__name">${infos.name}</h2>
+          <p class="barinfo__link__type">${infos.type} <img class="bar__div__type__icon" src="" alt="Beer icon for type: bar"> </p>
+          <p class="barinfo__link__distance">${distance} meters</p>
       </a>
       `   
+      withIcon(infobox, infos.type);
+
   } else{
     e.target._icon.attributes[0].nodeValue = markerPNG;
     infobox.innerHTML = '';

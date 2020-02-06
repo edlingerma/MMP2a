@@ -1,5 +1,5 @@
 {
-  "name": "styleguide",
+  "name": "barmapapp",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -12,9 +12,9 @@
   "author": "Maria & Astrid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/StridS/barmap_styleguide/issues"
+    "url": "https://gitlab.mediacube.at/fhs42552/mmp2a/issues"
   },
-  "homepage": "https://github.com/StridS/barmap_styleguide#readme",
+  "homepage": "https://gitlab.mediacube.at/fhs42552/mmp2a/tree/master",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",

@@ -1,0 +1,90 @@
+.profile{
+    &__header{
+        border-bottom: 3px solid $light-gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+        padding:0 2em;
+    }
+}
+.yourbars{
+    padding:0;
+    color: $dark-gray;
+    &__bartag{
+        background-color: $light-gray;
+        transition-duration: 0.4s;
+        list-style-type: none;
+        margin-left: 0;
+        margin: 1em 1.5em;
+        .barcont{
+            .no-style{
+                display: none;
+            }
+            display: grid;
+            grid-template-columns: 8vw auto 4em;
+            align-items: center;
+            padding:0 1em;
+            &__label{
+                margin-top: .5em;
+                width: 2.6em;
+                &__img{
+                    width:100%;
+                    -webkit-transform: rotate(180deg);
+                    transition-duration: 0.2s
+                }
+            }
+            &__input{
+                display: none;
+            }
+            &__heading{
+                text-align: left;
+                padding: 0 1em;
+            }
+            &__points{
+                font-size: $smallpara;
+            }
+        }
+        .yourchalls{
+            display:none;
+        }
+        &--open{
+            background-color: $turquoise;
+            transition-duration: 0.3s;
+            .barcont__label__img{
+                -webkit-transform: rotate(0deg);
+                transition-duration: 0.2s
+            }
+            .yourchalls{
+                display: inline-block;
+                background-color: $light-gray;
+                width: 100%;
+                padding-left: 0;
+                padding: 0 1em;
+                &__challs{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style-type: none;
+                    &--description{
+                        text-align: left;
+                        max-width: 60%;
+                    }
+                    &--score{
+                        text-align: right;
+                        max-width: 30%;
+                        font-size: $smallpara;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .yourbars__bartag{
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

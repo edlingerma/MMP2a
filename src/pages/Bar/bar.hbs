@@ -1,11 +1,16 @@
 <section class="bar" id="barsession">
     <div id="mapForUserlocation"></div>
     <div class="bar__div">
-        <h1 class="bar__div__name">{{ name }}</h1>
-        <p class="bar__div__type">Type: {{ type }}</p>
-        <p class="bar__div__type">Rating: {{ rating }}</p>
+        <h1 class="bar__div__name">{{ this.name }}</h1>
+        <p class="bar__div__type">{{ this.type }} <img class="bar__div__type__icon" src="../images/bar.svg" alt="Beer icon for type: bar">
+        </p>
+        {{> ./setRating }}
     </div>
     <div class="bar__challenges" id="bar__challenges">
-        <button class="bar__challenges__button" id="checkin">Check In</button>
+        <div class="bar__challenges__notcheckin">
+            <p>Check in if you are in this bar and want to see the challenges.</p>
+            <button class="bar__challenges__button" id="checkin">Check In!</button>
+            <p>+5 Points</p>
+        </div>
     </div>
 </section>

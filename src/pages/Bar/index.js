@@ -2,9 +2,11 @@ import template from './bar.hbs';
 import challenges from '../../js/challenges';
 import circle from '../../images/circle.svg';
 import checkedCircle from '../../images/checkedCircle.svg'
+import { rateMe, withIcon } from '../../js/functions';
+import {User, Class, loadUser} from '../../js/user';
 
 
-
+let user = loadUser();
 
 export default class BarPage {
     constructor(root, bar) {
@@ -24,6 +26,9 @@ export default class BarPage {
       if(bool){
         barT.checkIn(bar.latitude, bar.longitude, bar.id);
       }
+      let barTag = document.querySelector('#barsession');
+      rateMe(barTag, bar.rating);
+      withIcon(barTag, bar.type);
     }
 
     checkIn(latBar, lngBar, idBar){
@@ -48,21 +53,14 @@ export default class BarPage {
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition -> schneller
 function checkUserLocation(latBar, lngBar, idBar){
-
   //create invisible map to get User Location fast and easily
   let invisibleMap = L.map('mapForUserlocation').setView([latBar, lngBar], 13);
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRsaW5nZXJtYSIsImEiOiJjazVqbXUycTIwNG82M2xvNGhiamNlcWpnIn0.NkRltbxOXwRlM4WoyI8b3w', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      id: 'mapbox/streets-v11',
-      accessToken: 'your.mapbox.access.token'
-  }).addTo(invisibleMap);
 
   invisibleMap.locate({watch: true});
   invisibleMap.on('locationfound', function(e) { 
       let radius = e.accuracy;
       // stop searching for user location when te radius is small
-      if(radius <= 100){
+      if(radius <= 110){
         invisibleMap.stopLocate();
       }
       let distance = e.latlng.distanceTo( { lat: latBar, lng: lngBar } );
@@ -72,8 +70,8 @@ function checkUserLocation(latBar, lngBar, idBar){
       
       name = idBar;
       if(distance <= 20){
-        console.log("You are checked in now.");
-
+        alert("You are checked in now.");
+        user.checkIn(idBar);
         //COOKIE erstellen
         let result = getCookie(name);
         if(!result){
@@ -82,8 +80,10 @@ function checkUserLocation(latBar, lngBar, idBar){
           displaychallenges(value, name);
         }    
       } else{
-        console.log("Du bist nicht in der Bar!!!"); 
+        alert(`You are not in this bar! You are ${Math.round(distance)} meters away from it.`); 
       }
+      invisibleMap.off();
+      invisibleMap.remove();
   });
   invisibleMap.on('locationerror', console.log("GPS not working"));
 }
@@ -94,7 +94,7 @@ function displaychallenges(randomChallenges, name){
     divforChallenges.innerHTML = getChallangeHTML(randomChallenges);
     setEventToCircle(randomChallenges, name);
   }else{
-    divforChallenges.innerHTML = '<p>Alle Challenges für heute gemeistert. Bis bald!</p>';
+    divforChallenges.innerHTML = '<p>All challenges done for today. C u soon! </p>';
   }
  
 }
@@ -105,27 +105,26 @@ function setEventToCircle(randomChallenges, name) {
   for (var i = 0; i < circles.length; i++) {
 
       circles[i].addEventListener('click', function(e) {
-        console.log(e);
 
           if( e.target.alt == 'a circle to check the challange'){
             console.log('Challange DONE');
             e.target.alt = 'a check circle';
             e.target.src = checkedCircle;
             let parentDivId = e.target.parentNode.parentNode.parentNode.id;
-            // e.target.parentNode.parentNode.parentNode.hidden = true;
 
             if(parentDivId.includes(0)){
               //entweder style setzten - auch challange.js verändern (vlt)
-              // randomChallenges[0].style = '--transparent';
-              
-              //oder challenge löschen
+              user.addChallenge(randomChallenges[0].id);
+
+              //challenge löschen
               randomChallenges = randomChallenges.slice(1); // first element removed 
               //edit existing cookie
               bake_cookie(name, randomChallenges, 2)
               console.log(document.cookie);
             }
             if(parentDivId.includes(1)){
-              randomChallenges.pop(); // last element removed
+
+              user.addChallenge(randomChallenges.pop().id); // last element removed
               // bake_cookie('51', randomChallenges, 2)
               console.log(randomChallenges);
             }
@@ -143,11 +142,13 @@ function getRandomChallanges(){
   for(let i = 0; i<2; i++){
     let num = Math.floor(Math.random() * numberOfChallenges-1);
     randomChallengesArray.push(challenges[num]);
+    console.log(num + " " + challenges[num].id);
   }
   return randomChallengesArray;
 }
 
 function getChallangeHTML (randomChallengesArray){
+
   let challangeHTML = 
       `
       <h2>Challenges</h2>
@@ -157,8 +158,8 @@ function getChallangeHTML (randomChallengesArray){
     challangeHTML +=
         `
         <li class='bar__challenges list__element' id='challange${i}'>
-            <p>${randomChallengesArray[i].challenge}</p>
-            <div class='list__element__points'>
+            <p class='bar__challenges list__element__challange'>${randomChallengesArray[i].challenge}</p>
+            <div class='bar__challenges list__element__points'>
               <p>+${randomChallengesArray[i].points} Points</p>
               <button class='list__element__points__click'><img src=${circle} alt='a circle to check the challange'></button>
             </div>

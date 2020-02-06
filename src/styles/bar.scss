@@ -1,0 +1,96 @@
+.bar{
+    margin:0; 
+    padding:0;
+    height: 77vh;
+    &__div{
+        display: grid;
+        justify-content: center;	
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        border-bottom: 3px solid $light-gray;
+
+          &__name{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            justify-self: center;
+            align-self: center;
+            margin:0; 
+            padding:0;
+          }
+
+          &__type{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            justify-self: center;
+            align-self: center;
+            padding-bottom: 2%;
+            margin:0;
+          }
+    }
+
+    .rating{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: center;
+        align-self: end;
+        padding-bottom: 2%;
+    }
+
+    &__challenges{
+        text-decoration: none;
+        margin:0;
+        padding:0;
+
+        &__notcheckin{
+            margin-top:20vh;
+        }
+
+        &.list__element{
+            color: $dark-gray;
+            margin: 2.5% auto;
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+
+            &__challange{
+                width: 100%;
+                background-color: $turquoise;
+                padding: 2.5%;
+            }
+
+            &__points{
+                display: flex;
+                justify-content: space-evenly;
+                padding: 2.5%;
+
+                background-color: $light-gray;
+
+                button{
+                    background-color:$light-gray;
+                    border: none;
+                }
+
+                button:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 800px) {
+        &__challenges{
+            &.list__element{
+                max-width: 80%;
+                &__challange{
+                    padding: 2%;
+                }
+
+                &__points{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,14 @@
 <section class="profile">
-    <p>Profil</p>
+    <div class="profile__header">
+    <h1>{{ heading }}</h1>
+    <p>{{ user.score }} Points</p>
+    </div>
+    <h2>Your completed Challenges</h2>
+    <ul class="yourbars">
+        {{#each user.barsVisited}}
+        <li class="yourbars__bartag" id="bar{{ this.barID }}">
+            {{> ../../components/listBarsVisited}}
+        </li>
+        {{/each}}    
+    </ul>
 </section>

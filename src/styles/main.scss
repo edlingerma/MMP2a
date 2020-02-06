@@ -1,11 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Mukta|Lobster&display=swap');
 @import './colors.scss';
 @import './header.scss';
+@import './footer.scss';
 @import './map.scss';
+@import './list.scss';
+@import './index.scss';
+@import './bar.scss';
+@import './profile.scss';
+
+*{
+  box-sizing: border-box;
+}
 
 html{
-  box-sizing: border-box;
   padding: 0;
 }
 
@@ -13,4 +20,48 @@ body{
   margin: 0;
   background-color: $dark-gray;
   color: $light-gray;
+  font-family: $headerfont;
+  text-align: center;
+}
+
+p{
+  font-family: $parafont;
+}
+
+.bar__div__type__icon{
+  height: 1.5em;
+}
+
+button{
+  background-color: $turquoise;
+  color: $light-gray;
+  font-size: 1.5em;
+  border-radius: 7.5px;
+  padding: 0.5em 1em;
+  border: none;
+}
+
+button:hover{
+  background-color: $light-gray;
+  color: $dark-gray;
+  border: $turquoise solid 7.5px;
+}
+
+h1{
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 1.25em;
 }

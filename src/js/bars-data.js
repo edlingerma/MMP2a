@@ -405,7 +405,7 @@ export default[
             type: 'Cocktail Bar',
             latitude: 47.7233835,
             longitude: 13.0871253,
-            rating: '5.0'
+            rating: '2.5'
     },
     {
         id: 52,

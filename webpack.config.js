@@ -37,11 +37,6 @@ module.exports = {
         loader: "handlebars-loader",
         options: {
             partialDirs: [path.join(__dirname, './src/components')],
-            inlineRequires: './images',
-            helperDirs: path.join(__dirname, './src/js/helper'),
-            precompileOptions: {
-              knownHelpersOnly: false,
-            },
         }, 
       },
       {
@@ -49,7 +44,7 @@ module.exports = {
         use: { 
           loader: 'file-loader',
           options: {
-              name: "../images/[hash].[ext]",
+              name: "../images/[name].[ext]",
               outputPath: 'images/'
             }
           },

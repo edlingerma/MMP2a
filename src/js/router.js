@@ -8,10 +8,9 @@ import ListPage from '../pages/List';
 import BarPage from '../pages/Bar';
 
 import barData from '../js/bars-data';
-import barTemplate from '.././pages/Bar/bar.hbs';
 
 const navigoRoot = window.location.origin;
-const router = new Navigo(navigoRoot);
+const router = new Navigo(navigoRoot, true);
 const root = document.querySelector('#layout');
 
 router.notFound(() => {
@@ -41,18 +40,13 @@ router
         const profile = new ProfilePage(root);
         profile.render();
       },
-      'list': function () {
+      'bars': function () {
         const barList = new ListPage(root);
         barList.render();
       },
       ':id': (params) => {
-    
-
-
-        // Checkin
         const barT = new BarPage(root);
         barT.render(barData, params, barT);
-        // barT.checkIn(bar.latitude, bar.longitude);
       },
     },
   );

@@ -1,0 +1,64 @@
+@import './colors.scss';
+
+.barlist{
+    h2{
+        padding:0;
+        margin:0 0 0.5em 0;
+        font-weight: 100;
+        line-height: 90%;
+    }
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%; 
+    margin: 0 auto;
+    &__bar{
+        width: 30vw;
+        margin: 2% 0;
+        &__info{
+            border-top: $turquoise 1em solid;
+            background-color: $light-gray;
+            padding: .7em;
+            margin-left: .5vw;
+            margin-bottom: 1em;
+            @include shadow;
+            &__text{
+                margin-top:0;
+                margin-bottom: 0.5em;
+                filter: brightness(.14);
+            }
+            .rating *{
+                filter: brightness(.14);
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: $dark-gray;
+    }
+
+
+    @media screen and (max-width: 800px) {
+
+        h2{
+            font-size: 1.25em;
+        }
+
+        width: 100%; 
+
+        &__bar{
+            width: 44vw;
+        }
+        p{
+            font-size: 1em;
+        }
+
+        .rating img{
+            width: 8%;
+        }
+    }
+
+}

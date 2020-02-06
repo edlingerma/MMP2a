@@ -1,0 +1,11 @@
+    <div class="barcont">
+        <label class="barcont__label" for=""><img class="barcont__label__img" src="../images/arrow-down-circle.svg" alt="Arrow icon for drop-down menu"></label>
+        <input class="barcont__input" type="checkbox" name="dropdown" id="">
+        <h3 class="barcont__heading"></h3>
+        <p class="barcont__points"></p>
+    </div>
+    <ul class="yourchalls" id="list{{this.barID}}">
+        {{#each this.doneChallenges}}
+            {{> listChallengesDone }}
+        {{/each}}
+    </ul>

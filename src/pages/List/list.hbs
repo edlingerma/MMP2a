@@ -1,13 +1,17 @@
+<section class="list">
 
 <h1>{{ heading }}</h1>
 
-<ul>
-    {{#each barData}}
-    <li>
-    <a href="{{this.id}}">
-        <div>
-            <h2>{{ this.name }}</h2>
-            <p>{{this.rating}}</p>
+<ul class="barlist">
+    {{#each barsData}}
+    <li class="barlist__bar">
+    <a href="./#/{{this.id}}">
+        {{!-- <div class="barlist__bar__bar"></div> --}}
+        <div class="barlist__bar__info">
+            <h2 class="barlist__bar__info__text--head">{{ this.name }}</h2>
+            {{> ../../components/setRating }}
+            <p class="barlist__bar__info__text">{{ this.type }} <img class="bar__div__type__icon" src="../images/bar.svg" alt="Beer icon for type: bar">
+            </p>
         </div>
     </a>
     </li>

@@ -1,25 +1,30 @@
 .header{
     text-align: center;
+    background-color: $dark-gray;
+    height: 15%;
     .icon{
+        height: 30%;
+
         &--nav{
-            width: 10vw;
-            max-width: 90px;
             &:hover{
                 cursor: pointer;
             }
         }
         &--banner{
             display: block;
-            width: 28vw;
-            max-width: 150px;
-            margin:0 auto;
+            max-width: 100px;
+            margin:1% auto;
         }
+    }
+    nav{
+        height: 70%;
     }
     .navbar{
         display: flex;
         justify-content: center;
         border: $light-gray solid 2px;
         padding: 0;
+        margin:0;
         &__link{
             list-style-type: none;
             width: 100%;
@@ -29,30 +34,15 @@
             }
             a{
                 display: block;
-                padding-top: 3%;
-                padding-bottom: 1%;
+                padding: 2% 0;
                 width: 100%;
                 &:hover{
                     background-color: $turquoise;
                 }
+                &.selected{
+                    background-color: $turquoise;
+                }
             }
-        }
-    }
-    &.profile{
-        #menu1{
-            background-color: $turquoise;
-        }
-    }
-
-    &.map{
-        #menu2{
-            background-color: $turquoise;
-        }
-    }
-
-    &.list{
-        #menu3{
-            background-color: $turquoise;
         }
     }
 }
