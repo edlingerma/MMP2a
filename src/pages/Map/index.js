@@ -16,12 +16,10 @@ export default class MapPage {
     render(){
       this.root.innerHTML = this.template({ heading: 'Map' });
       this.mymap = L.map('mapid').setView([47.801, 13.045], 13);
-      //Dunkel
-        L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-        attribution: 'Bar data: &copy Yelp, Map data: &copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
-        id: 'mapbox/streets-v11',
-        accessToken: 'your.mapbox.access.token'
-      }).addTo(this.mymap);
+     //Dunkel
+     L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+  }).addTo(this.mymap);
       markHeaderLink('map');
     }
 
