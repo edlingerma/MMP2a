@@ -4,7 +4,7 @@ import { markHeaderLink } from '../../js/functions';
 import markerPNG from '../../images/pin_w.svg';
 import markerOnclick from '../../images/pin_t.svg';
 import iconUser from '../../images/usericon.svg';
-import { rateMe, withIcon } from '../../js/functions';
+import { withIcon } from '../../js/functions';
 
 export default class MapPage {
     constructor(root) {
@@ -89,7 +89,7 @@ export default class MapPage {
               userlocationMarker = L.marker(e.latlng, {icon: UserIcon, alt: 'User location point'}).addTo(mymap)
                 .bindPopup("You are here.").openPopup();
               userlocationCircle = new L.circle(e.latlng, 25, {color: '#ffffff'}).addTo(mymap);
-              mymap.setView(e.latlng, 25);
+              mymap.setView(e.latlng, 20);
             } else {
                 userlocationMarker.setLatLng(e.latlng);
                 userlocationCircle.setLatLng(e.latlng, radius);
