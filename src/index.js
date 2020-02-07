@@ -9,9 +9,8 @@ function importAll(r) {
 }
 const images = importAll(require.context('./images/', false, /\.(png|jpe?g|svg)$/));
 
-
-[...document.querySelectorAll('a')].map((el) => {
-  el.addEventListener('click', (e) => {
+[...document.querySelectorAll('a')].map(el => {
+  el.addEventListener('click', e => {
     const href = e.currentTarget.getAttribute('href');
     if (!href.startsWith('http') && !href.startsWith('www')) {
       e.preventDefault();

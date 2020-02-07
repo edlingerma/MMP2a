@@ -10,5 +10,5 @@
 
 
 ## Website
-Deployed with Gitlap
-http://fhs42552.pages.mediacube.at/mmp2a/#
+Deployed with Netlify
+https://barmap.netlify.com/#/
