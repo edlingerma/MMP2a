@@ -69,7 +69,7 @@ function checkUserLocation(latBar, lngBar, idBar){
       console.log("Distance "+distance);
       
       name = idBar;
-      if(distance <= 20){
+      if(distance <= 10000){
         alert("You are checked in now.");
         user.checkIn(idBar);
         //COOKIE erstellen
