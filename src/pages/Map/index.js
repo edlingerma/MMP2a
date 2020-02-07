@@ -87,7 +87,6 @@ export default class MapPage {
             let radius = e.accuracy;
             if (!userlocationMarker) {
               userlocationMarker = L.marker(e.latlng, {icon: UserIcon, alt: 'User location point'}).addTo(mymap)
-                .bindPopup("You are here.").openPopup();
               userlocationCircle = new L.circle(e.latlng, 25, {color: '#ffffff'}).addTo(mymap);
               mymap.setView(e.latlng, 20);
             } else {
