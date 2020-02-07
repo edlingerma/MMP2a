@@ -10,7 +10,7 @@ import winebar from '../images/winebar.svg';
 
 export function rateMe(barTag, rating) {
   let list = barTag.querySelector('.rating');
-
+  list.setAttribute('aria-label', `${ rating } out of five stars`)
   let half = rating % 1; // = 0.5 OR 0
   let whole = rating - half; // = 3 OR 4
   let empty = 5 - rating - half; //

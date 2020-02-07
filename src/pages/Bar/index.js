@@ -90,7 +90,8 @@ function checkUserLocation(latBar, lngBar, idBar) {
     invisibleMap.off();
     invisibleMap.remove();
   });
-  invisibleMap.on('locationerror', console.log('GPS not working'));
+  invisibleMap.on('locationerror', onLocationError);
+  // invisibleMap.on('locationerror', console.log('GPS not working'));
 }
 
 function displaychallenges(randomChallenges, name) {
@@ -125,7 +126,8 @@ function setEventToCircle(randomChallenges, name) {
           console.log(document.cookie);
         }
         if (parentDivId.includes(1)) {
-          user.addChallenge(randomChallenges.pop().id); // last element removed
+          user.addChallenge(randomChallenges[randomChallenges.length - 1].id);
+          randomChallenges.pop(); // last element removed
           // bakeCookie('51', randomChallenges, 2)
           console.log(randomChallenges);
         }
@@ -195,4 +197,9 @@ function bakeCookie(name, value, hours) {
 
 function readCookie(result) {
   return JSON.parse(result);
+}
+
+function onLocationError(e) {
+  alert(e.message);
+  window.location = "#";
 }

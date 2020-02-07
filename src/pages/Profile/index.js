@@ -13,6 +13,7 @@ export default class IndexPage {
     this.root = root;
     this.template = template;
   }
+  // show all challenges for each listed bar from latest to earliest checked
   listChallenges(bar) {
     let list = document.querySelector(`#list${bar.barID}`);
     let listEls = list.querySelectorAll('li');
@@ -20,13 +21,14 @@ export default class IndexPage {
       list.parentNode.querySelector('.barcont__label__img').classList.add('no-style');
     }
     let i = 0;
-    bar.doneChallenges.reverse().forEach(chall => {
+    bar.doneChallenges.forEach(chall => {
       let info = challs.find(ch => ch.id == chall);
       listEls[i].querySelector('.yourchalls__challs--description').innerHTML = info.challenge;
       listEls[i].querySelector('.yourchalls__challs--score').innerHTML = `+${info.points} Points`;
       i++;
     });
   }
+  // show all visited bars from latest first visit to earliest
   listBars() {
     let isfirst = true;
     user.barsVisited.map(bar => {
@@ -46,10 +48,11 @@ export default class IndexPage {
           listEl.querySelector('p').innerHTML = `+${bar.score} Points`;
         }
       });
-      if (isfirst) {
-        console.log('TRIGGERED');
+      // show challenges of first bar if existing
+      if (isfirst && bar.doneChallenges.length > 0) {
         inp.checked = true;
         listEl.classList.add('yourbars__bartag--open');
+        listEl.querySelector('p').innerHTML = `+5 Points`;
         isfirst = false;
       }
       this.listChallenges(bar);

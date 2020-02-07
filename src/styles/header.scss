@@ -20,6 +20,7 @@
         height: 70%;
     }
     .navbar{
+        color: $light-gray;
         display: flex;
         justify-content: center;
         border: $light-gray solid 2px;
@@ -36,7 +37,9 @@
                 display: block;
                 padding: 2% 0;
                 width: 100%;
-                &:hover{
+                text-decoration: none;
+                font-size: .7em;
+                &:hover, &:focus{
                     background-color: $turquoise;
                 }
                 &.selected{

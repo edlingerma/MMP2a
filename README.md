@@ -8,7 +8,12 @@
 - To fix lint errors run `npm run lint -- --fix`
 - Run build the project run  `npm run build`
 
+## Source  
+
+Map: Leaflet
+Map Layer: Stadia Maps
+Bardaten: Yelp
 
 ## Website
 Deployed with Netlify
-https://barmap.netlify.com/#/
+https://barmap.netlify.com/#/map

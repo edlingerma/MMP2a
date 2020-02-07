@@ -18,43 +18,50 @@ export class User {
     this.barsVisited = []; // collection; has Bar ID, timestamp of last ckechin and collection of completed challenges
   }
   save() {
+    // save class permanently into user's frontend
     localStorage.setItem('myUser', JSON.stringify(this));
   }
-  checkIn(barID) {
-    console.log('check into ' + barID);
+  checkIn(barID, wholeLoad = false) {
+    // add bar ID in user's visited bars and save class into storage
     if (barsData.find(bar => bar.id == barID) === undefined) {
       throw new ReferenceError(`Bar id is invalid!\tID: ${barID}`);
     } else {
+      // see if bar is already in array; if not, create new bar object
       let currBar;
       if (this.barsVisited.findIndex(bar => bar.barID == barID) == -1) {
         currBar = new Bar(barID);
-        this.barsVisited.push(currBar);
-        this.score += currBar.score;
+        this.barsVisited.unshift(currBar);
+        console.log(`first check into ${barID}: score ${this.score} + ${currBar.score}`);
       } else {
+        // set reference to current visiting bar to this id with new timestamp
         currBar = this.barsVisited.find(bar => bar.barID == barID); // Shallow
-        currBar.updateChekIn();
+        if (!wholeLoad) {
+          currBar.updateChekIn();
+        }
       }
       this.currentBar = currBar;
+      if (!wholeLoad) {
+        this.updateScore();
+      }
       this.save();
     }
   }
-  checkOut() {
-    this.currentBar = null;
-  }
-  addChallenge(challengeID) {
+  // add challenge to user's done challenges and save into storage
+  addChallenge(challengeID, wholeLoad = false) {
     let bar = this.currentBar;
-    if (bar == null) {
-      throw new ReferenceError('User not currently checked in!');
-    } else {
-      bar.addChallenge(challengeID);
+    bar.addChallenge(challengeID, true);
+    if (!wholeLoad) {
       this.updateScore();
-      this.save();
     }
+    this.save();
   }
+  // iterate recursively through each visited bar and done challenge and add score
   updateScore() {
+    console.log('UPDATE SCORE');
     let score = 0;
     this.barsVisited.forEach(bar => {
       score += bar.updateScore();
+      console.log('users score: ' + score);
     });
     this.score = score;
   }
@@ -63,64 +70,69 @@ export class User {
 export class Bar {
   constructor(barID, lastCheckin = Date.now()) {
     this.barID = barID;
-    this.lastCheckin = lastCheckin;
+    this.lastCheckin = lastCheckin; // timestamp of this bar's last chekin
     this.score = 5;
     this.doneChallenges = [];
   }
+  // set last checkin to current time
   updateChekIn() {
     this.lastCheckin = Date.now();
   }
+  // save new challenge into bar's done challenges if existing but not in array
   addChallenge(challengeID) {
     if (challs.find(chall => chall.id == challengeID) === undefined) {
-      // throw new ReferenceError(`Challenge id is invalid!\tID: ${challengeID}`)
+      throw new ReferenceError(`Challenge id is invalid!\tID: ${challengeID}`);
     }
     if (!this.doneChallenges.includes(challengeID)) {
-      console.log('Not Included!');
-      this.doneChallenges.push(challengeID);
-      return this.updateScore();
+      this.doneChallenges.unshift(challengeID);
     }
   }
-  addScore(challengeID) {
-    return challs.find(el => el.challengeID == challengeID).points;
+  // return challenge object via id
+  getChall(challengeID) {
+    return challs.find(el => el.id == challengeID);
   }
+  // iterate through done challenges and add to score
   updateScore() {
     let score = 5;
     this.doneChallenges.forEach(chall => {
-      score += this.addScore(chall.challengeID);
+      console.log('chall id: ' + chall + '  score: ' + this.getChall(chall).points);
+      score += this.getChall(chall).points;
     });
+    console.log('bar id: ' + this.barID + ' score: ' + score);
     this.score = score;
     return score;
   }
 }
 
+// get user data from local storage
 export function loadUser() {
   let user = null;
   let from_storage = localStorage.getItem('myUser');
+  // if storage is not empty
   if (from_storage) {
     console.log('sths there....');
     let data = JSON.parse(from_storage);
     user = new User();
-    console.log(user.barsVisited);
+    // make deep copy of user
     data.barsVisited.forEach(b => {
+      // create new bar object with old timestamp
       let bar = new Bar(b.barID, b.lastCheckin);
-      user.barsVisited.push(bar);
+      // push bar at array start
+      user.barsVisited.unshift(bar);
+      console.log(`bar id: ${bar.barID}`);
       b.doneChallenges.forEach(chall => {
-        console.log(`Bar: ${bar.barID}, Challenge: ${chall}`);
+        // add done challenges to bar object
         bar.addChallenge(chall);
       });
     });
-    user.updateScore();
     if (data.currentBar !== undefined) {
-      user.checkIn(data.currentBar.barID);
-      console.log('IS DEFINED');
+      user.checkIn(data.currentBar.barID, true);
     }
-    console.log(user.barsVisited);
-    console.log(data);
   } else {
     user = new User();
   }
-
-  console.log(user);
+  setTimeout(10000);
+  user.updateScore();
   return user;
 }
 
