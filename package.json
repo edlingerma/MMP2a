@@ -38,7 +38,7 @@
     "handlebars-loader": "^1.7.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "leaflet": "^1.6.0",
     "leaflet-map": "^0.2.1",
     "mini-css-extract-plugin": "^0.8.2",
